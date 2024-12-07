@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E5E3D4;
+}
+.landing{
+    padding:0;
+}
+header{
+    background-color: blueviolet;
+}
+header h1{
+    font-family: "Oswald", serif;
+}
+header p{
+    font-family: "Josefin Sans", serif;
+}
+/* male female icon styling */
+.male{
+    color:blueviolet
+}
+.female:hover{
+    color:blueviolet;
+}
+/* button styling */
+button{
+    color:blueviolet
+}
+button:hover{
+    color:white;
+    background-color:blueviolet;
+    font-weight: 500;
+    padding:10px;
+    font-size: medium;
+}
+.inputheads{
+    margin-left:-90px;
+    margin-bottom:-10px;
+    font-weight: 600;
+}
+/* style of the BMI various level indicator */
+.yellow,.green,.orange,.red{
+    height:8px;
+    width:150px;
+}
+.green{
+ background-color: green;
+}
+.yellow{
+ background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.red{
+    background-color: red;
+}
